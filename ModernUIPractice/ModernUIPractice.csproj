@@ -174,15 +174,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\shopping-cart.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Images\noimage.png" />
-    <None Include="Images\notification.png" />
-    <None Include="Images\customer.png" />
-    <None Include="Images\cart.png" />
-    <None Include="Images\products.png" />
     <None Include="bin\Images\products.png" />
+    <None Include="bin\Images\cart.png" />
+    <None Include="bin\Images\customer.png" />
+    <None Include="bin\Images\notification.png" />
     <Content Include="Model.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Model.Context.cs</LastGenOutput>
@@ -196,6 +191,9 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

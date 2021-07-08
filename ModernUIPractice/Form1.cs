@@ -22,12 +22,14 @@ namespace ModernUIPractice
             InitializeComponent();
             currentcustomer = new Customer();
             random = new Random();
+            this.Text = string.Empty;
+            this.ControlBox = false;
             button1.Enabled = false;
             button2.Enabled = false;
             button3.Enabled = false;
             button5.Enabled = false;
         }
-
+        #region Menu Buttons Click event
         private void button1_Click(object sender, EventArgs e)
         {
             childernform.Controls.Clear();
@@ -62,7 +64,9 @@ namespace ModernUIPractice
 
 
         }
+        #endregion
 
+        #region Color Change method
         private void Deactivatecolor()
         {
             foreach(Control previoisbtn in panel1.Controls)
@@ -73,7 +77,24 @@ namespace ModernUIPractice
             }
 
         }
+        private void Changecolor(object sender)
+        {
+            if (currentbtn != (Button)sender)
+            {
+                Deactivatecolor();
+                index = random.Next(0, colors.colorList.Count);
+                string selectedcolor = colors.colorList[2];
+                currentbtn = (Button)sender;
+                currentbtn.BackColor = ColorTranslator.FromHtml(selectedcolor);
+                panel3.BackColor = ColorTranslator.FromHtml(selectedcolor);
+                Home.ForeColor = Color.White;
+            }
 
+
+        }
+        #endregion
+
+        #region open childform method
         private void Openchildform(Form childform )
         {
             childform.TopLevel = false;
@@ -87,22 +108,9 @@ namespace ModernUIPractice
           
         }
 
-        
-        private void Changecolor(object sender)
-        {
-            if (currentbtn != (Button)sender)
-            {
-                Deactivatecolor();
-                index = random.Next(0, colors.colorList.Count);
-                string selectedcolor = colors.colorList[2];
-                currentbtn = (Button)sender;
-                currentbtn.BackColor = ColorTranslator.FromHtml(selectedcolor);
-                panel3.BackColor = ColorTranslator.FromHtml(selectedcolor);
-            }
-            
-            
-        }
+        #endregion
 
+        #region setting currrentUser && submit btn event 
         private void button4_Click(object sender, EventArgs e)
         {
             button1.Enabled = true;
@@ -121,6 +129,12 @@ namespace ModernUIPractice
             }
             
             button3_Click(button3,e);
+        }
+        #endregion
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
