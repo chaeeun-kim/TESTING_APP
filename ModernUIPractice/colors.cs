@@ -8,7 +8,7 @@ namespace ModernUIPractice
 {
    public static class colors
     {
-        static public List<string>colorList = new List<string>() { "#312B1A", "#A96829", "#6F7B68", "#BBC7BA" };
+        static public List<string>colorList = new List<string>() { "#312B1A", "#A96829", "#6F7B68", "#BBC7BA","#4232" };
 
     }
 }
