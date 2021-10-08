@@ -45,17 +45,3 @@ steps:
     uploadfiles: false
     skipclones: false
     
-- task: kiuwan-delivery-analysis-task@2
-  inputs:
-    kiuwanConnection: 'Kiuwan Service'
-    projectnameselector: 'kiuwanapp'
-    kiuwanappname: 'REG-KR-TestApp'
-    analysisscope: 'partialDelivery'
-    failonnofiles: true
-    includeinsight: true
-    failonaudit: true
-    uploadsnippets: true
-    uploadfiles: false
-    skipclones: false
-    overridedotkiuwan: false
-    dbanalysis: false
