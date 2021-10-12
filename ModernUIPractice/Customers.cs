@@ -37,6 +37,79 @@ namespace ModernUIPractice
                 Debug.WriteLine(e.Error);
 
             }
+               if (e.Error != null)
+            {
+                Debug.WriteLine(e.Error);
+
+            }
+            
+               if (e.Error != null)
+            {
+                Debug.WriteLine(e.Error);
+
+            }
+            
+               if (e.Error != null)
+            {
+                Debug.WriteLine(e.Error);
+
+            }
+            
+               if (e.Error != null)
+            {
+                Debug.WriteLine(e.Error);
+
+            }
+            
+               if (e.Error != null)
+            {
+                Debug.WriteLine(e.Error);
+
+            }
+               if (e.Error != null)
+            {
+                Debug.WriteLine(e.Error);
+
+            }
+               if (e.Error != null)
+            {
+                Debug.WriteLine(e.Error);
+
+            }
+               if (e.Error != null)
+            {
+                Debug.WriteLine(e.Error);
+
+            }
+               if (e.Error != null)
+            {
+                Debug.WriteLine(e.Error);
+
+            }
+               if (e.Error != null)
+            {
+                Debug.WriteLine(e.Error);
+
+            }
+               if (e.Error != null)
+            {
+                Debug.WriteLine(e.Error);
+
+            }
+               if (e.Error != null)
+            {
+                Debug.WriteLine(e.Error);
+
+            }
+               if (e.Error != null)
+            {
+                Debug.WriteLine(e.Error);
+
+            }
+            
+            
+            
+            
         }
     }
 }
