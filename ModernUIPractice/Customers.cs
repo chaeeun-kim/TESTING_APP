@@ -22,6 +22,11 @@ namespace ModernUIPractice
             textBox2.DataBindings.Add("Text", bindingsource, "Lastname");
             textBox3.DataBindings.Add("Text", bindingsource, "Address");
             pictureBox1.DataBindings.Add("ImageLocation", bindingsource, "Picture");
+            pictureBox1.DataBindings.Add("ImageLocation", bindingsource, "Picture");
+            pictureBox1.DataBindings.Add("ImageLocation", bindingsource, "Picture");
+            pictureBox1.DataBindings.Add("ImageLocation", bindingsource, "Picture");
+            pictureBox1.DataBindings.Add("ImageLocation", bindingsource, "Picture");  
+            pictureBox1.DataBindings.Add("ImageLocation", bindingsource, "Picture");
 
         }
 
