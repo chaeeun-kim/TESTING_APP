@@ -37,7 +37,7 @@ steps:
     kiuwanConnection: 'Kiuwan Service'
     projectnameselector: 'kiuwanapp'
     kiuwanappname: 'REG-KR-TestApp'
-    analysisscope: 'completeDelivery'
+    analysisscope: 'partialDelivery'
     includeinsight: true
     failonaudit: true
     uploadsnippets: true
