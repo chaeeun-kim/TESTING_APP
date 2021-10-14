@@ -33,16 +33,16 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: kiuwan-delivery-analysis-task@2
+- task: kiuwan-baseline-analysis-task@2
   inputs:
     kiuwanConnection: 'Kiuwan Service'
     projectnameselector: 'kiuwanapp'
     kiuwanappname: 'REG-KR-TestApp'
-    analysisscope: 'completeDelivery'
+    analysislabel: '#1'
     includeinsight: true
-    failonaudit: true
     uploadsnippets: true
     uploadfiles: false
     skipclones: false
     overridedotkiuwan: false
+    overrideappmodel: false
     dbanalysis: false
