@@ -15,7 +15,7 @@ namespace ModernUIPractice
     {
         Button currentbtn;
         Random random;
-        public static Customer currentcustomer;
+        static Customer currentcustomer;
         int index;
         public Form1()
         {
@@ -132,7 +132,7 @@ namespace ModernUIPractice
         }
         #endregion
 
-        private void button7_Click(object sender, EventArgs e)
+        private static void button7_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

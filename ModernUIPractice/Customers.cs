@@ -30,7 +30,7 @@ namespace ModernUIPractice
 
         }
 
-        private void pictureBox1_LoadCompleted(object sender, AsyncCompletedEventArgs e)
+        private static void pictureBox1_LoadCompleted(object sender, AsyncCompletedEventArgs e)
         {
             if (e.Error != null)
             {
