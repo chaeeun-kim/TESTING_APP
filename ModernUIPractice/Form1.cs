@@ -15,7 +15,7 @@ namespace ModernUIPractice
     {
         Button currentbtn;
         Random random;
-        static Customer currentcustomer;
+        static public Customer currentcustomer;
         int index;
         public Form1()
         {

@@ -83,7 +83,7 @@ namespace ModernUIPractice
             this.pictureBox1.Size = new System.Drawing.Size(195, 255);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pictureBox1_LoadCompleted);
+            //this.pictureBox1.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.pictureBox1_LoadCompleted);
             // 
             // Firstname
             // 
